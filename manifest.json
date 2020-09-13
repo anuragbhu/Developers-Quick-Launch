@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Developers Quick Launch",
+  "description": "No more needed to bookmark your important links. Developers Quick Launch will do it for you in one place.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon_16_16.png",
+    "48": "images/icon_48_48.png",
+    "128": "images/icon_128_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16_16.png",
+      "24": "images/icon_24_24.png",
+      "32": "images/icon_32_32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
